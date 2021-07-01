@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AULA 3</title>
+</head>
+<body>
+    <form>
+        <label  for="textnome">NOME</label>
+        <input type="text" name="nome" id="textnome" placeholder="digite seu nome">
+        <label  for="textsexo">SEXO</label>
+        <input type="radio" name="sexo" id="textsexo"  value="Feminino">F
+        <input type="radio" name="sexo" id="textsexo"  value="Masculino">M
+        <br>
+        <input type="checkbox" name="T" value="1">Tecnico
+        <input type="checkbox" name="G" value="1">Graduado
+        <input type="checkbox" name="P" value="1">Pós graduado
+        <br/>
+        <label for="salario">REMUNERAÇÃO</label>
+        <input type="number" name="salario" id="salario">
+        <br>
+        <label for="nascimento">DATA DE NASCIMENTO</label>
+        <input type="date" name="nascimento" id="nascimento">
+        <br>
+            <label for="nacionalidade">NASCIONALIDADE</label>
+            <select name="nacionalidade" id="nacionalidade">
+                <option value="B">Brasileiro</option>
+                <option value="E">Estrangeiro</option>
+            </select>
+        <label for="naturalidade">NATURALIDADE</label>
+        <input type="text" list="listaCidades" name="naturalidade" id="naturalidade">
+        <datalist id="listaCidades">
+            <option value="alvorada">ALVORADA</option>
+            <option value="porto alegre">PORTO ALEGRE</option>
+            <option value="novo hamburgo">NOVO HAMBURGO</option>
+            <option value="umbu">UMBU</option>
+        </datalist>
+
+    </form>
+</body>
+</html>

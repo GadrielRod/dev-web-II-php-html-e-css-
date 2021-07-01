@@ -1,0 +1,12 @@
+body{
+    background-attachment: fixed;
+    max-width: max-content;
+    margin: auto;
+    padding: 10%;
+    
+}
+.botao{
+    height: 100px;
+    width: 100px;
+}
+
